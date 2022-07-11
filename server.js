@@ -57,3 +57,6 @@ app.get("/api/animals", (req, res) => {
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
+
+// HEROKU
+// https://mighty-sierra-86528.herokuapp.com/api/animals
