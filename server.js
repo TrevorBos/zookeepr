@@ -44,7 +44,7 @@ function filterByQuery(query, animalsArray) {
     return filteredResults;
   }
 
-// End of the code stuff
+// End of the code
 app.get("/api/animals", (req, res) => {
   let results = animals;
   if (req.query) {
